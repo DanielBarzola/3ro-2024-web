@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Parrilada "Don Mario""</title>
+</head>
+<body>
+    <h1>Menú de Entradas"Don Mario"</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre del plato</th>
+                <th>Descripción</th>
+                <th>Precio (ARS)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Las picadas <br>de Don Mario</td>
+                <td>jamón crudo, matambre casero, salame, lomito de cerdo ahumado,<br> queso fontina, tybo, palmitos, palta, ensalada rusa y aceitunas</td>
+                <td>$36000  4p o 5p.</td>
+            </tr>
+            <tr>
+                <td>Individuales</td>
+                <td>Empanadas de carne o muzzarella con cebolla y albahaca</td>
+                <td>$1900</td>
+            </tr>
+            <tr>
+                <td>Entrada de mariscos</td>
+                <td>Rabas a la Romana</td>
+                <td>$18000 2p</td>
+            </tr>
+            <tr>
+                <td>Parrilladitas de entrada</td>
+                <td>Mollejas a la provenzal con papas españolas </td>
+                <td>$20000</td>
+            </tr>
+            <tr>
+                <td>Ensaladas individuales</td>
+                <td>Tomate – Achicoria – Lechuga – Apio <br> – Berro – Zanahoria – Cebollita de verdeo </td>
+                <td>$8900</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Formulario de Reserva</h2>
+
+    <form action="#">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+
+        <label for="personas">Cantidad de personas:</label>
+        <input type="number" id="personas" name="personas" min="1" required>
+
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha" required>
+
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora" name="hora" required>
+
+        <label for="comentarios">Comentarios (opcional):</label>
+        <textarea id="comentarios" name="comentarios"></textarea>
+
+        <button type="submit">Enviar reserva</button>
+    </form>
+
+<body>
+</html>
