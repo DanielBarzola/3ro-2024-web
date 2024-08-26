@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'BocaJuniors';
+    src: url('fonds/bocajuniors/TravelSunday.ttf')  format('truetype');
+}
+img{
+    width: 30%;
+}
+header img{
+    width: 100px;
+    border-radius: 50%;
+}
+h1{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    font-family:'BocaJuniors',sans-serif;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonds/roboto/Roboto-Medium.ttf') format('truetype'); 
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonds/roboto/Roboto-Medium.ttf') format('truetype'); 
+}
+main {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background: radial-gradient(circle, #0051A2 20%, #0051A2 50%, #FFCC00 100%);
+}
+.imagen-ovalada {
+    width: 500px; /* Ajusta el tamaño de la imagen */
+    height: 400px; /* Ajusta el tamaño de la imagen */
+    border-radius: 60%; /* Este valor crea la forma ovalada */
+    object-fit: cover; /* Asegura que la imagen se ajuste bien al contenedor */
+}
