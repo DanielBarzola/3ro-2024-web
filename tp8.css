@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1,h2 {
+    color: #333;
+}
+.tarea {
+    margin: 20px 0;
+    padding: 20px;
+}
+.tarea1 {
+    background-color: #1700e9; 
+}
+.tarea2 {
+    background-image: url(../../dani3ro/img/La-Bombonera-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90px;
+    color: #ffffff;
+}
+.tarea3 {
+    border-top: 4px solid #1700e9;
+    border-right: 4px dotted #fffb00;
+    border-bottom: 4px double #1700e9;
+    border-left: 4px dashed #fffb00;
+}
+.tarea4 {
+    border: 2px solid #1e00ff;
+    border-radius: 20px;
+}
