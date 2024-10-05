@@ -1,0 +1,83 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Estilos para la cabecera */
+header {
+    background-color: #2b0ae7;
+    color: rgb(10, 0, 0);
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #ffff00; /* Cambiado a borde inferior amarillo */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Estilos para el contenido principal */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:#2b0ae7;
+}
+section, article, aside {
+    background-color:#ffff00 ;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(0, 0, 0); /* Cambiado a borde azul */
+}
+/* Estilos específicos para cada sección */
+section {
+    flex: 2;
+    margin-right: 20px;
+}
+
+article {
+    flex: 3;
+    margin-right: 20px;
+}
+
+aside {
+    flex: 1;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #0b0ff3;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    border-top: 5px solid yellow; /* Cambiado a borde superior amarillo */
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
