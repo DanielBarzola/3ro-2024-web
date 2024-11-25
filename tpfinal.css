@@ -1,0 +1,194 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #003366;
+    color: #FFD700;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav ul li a {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 1rem;
+    max-width: 1200px; /* Permite más ancho al contenido */
+    margin: 0 auto; /* Centra horizontalmente */
+}
+
+h2 {
+    color: #003366;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+
+/* Footer styling */
+footer {
+    background-color: #003366;
+    color: #FFD700;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.button-link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #003366;
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button-link:hover {
+    background-color: #0055a4;
+}
+.columnas {
+    display: flex;
+    justify-content: space-between; /* Mantén espacio entre columnas */
+    gap: 20px; /* Espacio entre las columnas */
+    margin: 20px auto; /* Centra las columnas */
+    max-width: 90%; /* Ocupa el 90% del ancho de la página */
+    width: 100%; /* Usa todo el ancho disponible */
+}
+
+
+.columnas section {
+    flex: 1; /* Hace que cada sección tome un espacio igual */
+    padding: 10px;
+    border: 3px solid #003366; /* Opcional: borde para visualización */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Opcional: sombra para estética */
+}
+
+@media (max-width: 768px) {
+    .columnas {
+        flex-direction: column; /* Cambia a diseño vertical en pantallas pequeñas */
+    }
+}
+body {
+    background-image: url('bocajr.webp'); /* Cambia por la ruta de tu imagen */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-attachment: fixed; /* Fija la imagen al fondo mientras haces scroll */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.columnas {
+    padding: 15px; /* Espaciado dentro de las columnas */
+    margin: 20px; /* Espaciado fuera de las columnas */
+    border-radius: 7px; /* Bordes redondeados (opcional) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para resaltar las columnas */
+}
+.columnas {
+    background: #ffd9007c; /* Fondo blanco semitransparente */
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #000000; /* Texto en negro */
+    font-weight: bold; /* Resalta las letras */
+    font-size: 16px; /* Ajusta el tamaño del texto */
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+
+.columnas h2 {
+    color: #003366; /* Títulos ligeramente menos oscuros que el texto */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4); /* Sombras en los títulos */
+}
+
+.columnas p {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); /* Sombras ligeras en los párrafos */
+}
+/* General styles for header */
+header {
+    text-align: center;
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+/* Logo and title container */
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px; /* Espaciado entre logo/título y el menú */
+}
+
+.logo {
+    width: 90px; /* Tamaño del logo */
+    height: 90px;
+    border-radius: 10%; /* Hace la imagen circular */
+    margin-right: 15px; /* Espaciado entre el logo y el título */
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem; /* Tamaño del título */
+}
+
+/* Navigation menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centrar el menú */
+    gap: 20px; /* Espaciado entre los elementos del menú */
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem; /* Tamaño del texto */
+    color: #FFD700; /* Cambia el color si es necesario */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Agrega efecto al pasar el ratón */
+}
+.columnas {
+    padding: 30px; /* Más espacio interno */
+    gap: 30px; /* Más espacio entre columnas */
+}
+nav ul {
+    gap: 40px; /* Más espacio entre los elementos del menú */
+}
+
+nav ul li a {
+    font-size: 1.5rem; /* Aumenta el tamaño del texto */
+}
+body {
+    background-size:cover /* Cambiar a 'contain' si no necesitas que cubra todo */
+}
